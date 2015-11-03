@@ -16,5 +16,11 @@ namespace OmaGUI
         {
             InitializeComponent();
         }
+
+        // Lopetusnappi
+        private void lopetaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
